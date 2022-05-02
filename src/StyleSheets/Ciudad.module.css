@@ -1,0 +1,27 @@
+.container{
+    transition: box-shadow 0.4s ease;
+    height: 234px;
+    width: 200px;
+    font-family:monospace;
+    font-size: 16px;
+    margin-bottom: 15px;
+    text-shadow: 0.1px 0.1px 0.4rem rgb(0,0,0,0.3);
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    background-color: rgb(241, 235, 241);
+    box-shadow: 1px 1px 0.6rem black;
+    user-select: none;
+}
+
+.container:hover{
+    border-color: rgb(210, 216, 221);
+    box-shadow: 4px 4px 0.6rem rgb(214, 213, 213);
+}
+
+.ciudad{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}

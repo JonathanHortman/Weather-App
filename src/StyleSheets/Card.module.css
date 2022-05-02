@@ -1,0 +1,70 @@
+.contenedorCard {
+    transition: box-shadow 0.4s ease;
+    height: 234px;
+    width: 200px;
+    font-family:monospace;
+    font-size: 16px;
+    text-shadow: 0.1px 0.1px 0.4rem rgb(0,0,0,0.3);
+    border: 1px solid rgb(255, 255, 255);
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-top: 8px;
+    background-color: rgb(54, 47, 54);
+    box-shadow: 1px 1px 0.6rem black;
+    user-select: none;
+
+}
+
+.contenedorCard:hover {
+    border-color: rgb(210, 216, 221);
+    box-shadow: 4px 4px 0.6rem rgb(214, 213, 213);
+}
+
+.ciudad{
+    transition: box-shadow 0.4s ease;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.ciudad:hover{
+    text-shadow: 4px 4px 0.6rem rgb(214, 213, 213);
+}
+
+
+
+.climas{
+    color: rgb(0, 0, 0);
+}
+
+.botonX {
+    margin-right: 2px;
+    display: flex;                  
+    justify-content: flex-end;
+}
+
+.x{
+    box-shadow: 0.5px 0.5px 0.4rem black;
+    border-radius: 100px;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background-color: tomato;
+}
+
+.x:hover{
+    box-shadow: 0.5px 0.5px 0.4rem white;
+    background-color: rgb(255, 136, 0);
+    color: black;
+    border-color: rgb(255, 255, 255);
+}
+
+.imagenClima{
+    filter: brightness(50%);
+}
+
+
+@media (max-width: 600px) {
+    .contenedorCard {
+        margin: 5px;
+    }
+  }

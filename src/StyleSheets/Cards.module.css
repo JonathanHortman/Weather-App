@@ -1,0 +1,16 @@
+.contenedorCards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 75%;
+    margin: auto;    
+}
+
+@media (max-width: 600px) {
+    .contenedorCards {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    }
+  }
