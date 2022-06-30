@@ -9,30 +9,28 @@ export default function SearchBar({ onSearch }) {
     <form onSubmit={(e) => {
       e.preventDefault();
       onSearch(city);
+      setCity("")
     }}>
       <div className={`${s.searchContainer}`}>
 
+        <Link to={'/'}>
+          <img className={s.sol} src="https://www.iconpacks.net/icons/2/free-sun-icon-3337-thumb.png" alt="iconpage" />
+        </Link>
 
         <input
-          className={`${s.input}`}
+          className={`${s.searchBar}`}
           type="text"
-          placeholder="Ciudad..."
+          placeholder="Search country or city..."
           value={city}
           onChange={e => setCity(e.target.value)} />
 
         <input
-          type="button" class="btn btn-success"
-          value="Search 🔎" />
-          
-        <div className={`${s.home}`}>
-          <button type="button" class="btn btn-light">
-            <Link to={'/'} style={{ textDecoration: 'none' }}>
-              🏠 Home
-            </Link>
-          </button>
-        </div>
+        className={s.searchButton}
+          type="submit"
+          value="Lets search 🔎" />
 
       </div>
+
     </form>
   );
 }

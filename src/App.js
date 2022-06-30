@@ -52,10 +52,6 @@ function App() {
   return (
     <div className="App">
 
-      {/* <Route path='/'>
-        <Backbutton/>
-      </Route> */}
-
       <Route path='/'>
         <SearchBar onSearch={onSearch} />
       </Route>

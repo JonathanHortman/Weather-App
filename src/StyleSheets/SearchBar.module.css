@@ -1,29 +1,24 @@
-.input{
-    margin-top: 20px;
-    margin-right: 5px;
+.searchContainer{
+    position: relative;
+    width: 100vw;
+    height: 55px;
+    background-color: rgba(72, 255, 0, 0.204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sol{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 10px;
+    top: 4px;
+}
+.searchBar{
     height: 35px;
 }
 
-
-
-
-
-
-
-/* .botonAdd{
-    transition: box-shadow 0.4s ease;
-    border: 1px rgb(50, 246, 1) solid;
-    box-shadow: 0.5px 0.5px 0.7rem rgb(0, 0, 0);
-    background-color: rgb(168, 175, 175);
+.searchButton{
     height: 35px;
-    color: rgb(27, 137, 0);
-
-    font-weight: bold;
 }
-
-.botonAdd:hover{
-    box-shadow: 0.5px 0.5px 0.7rem rgb(255, 255, 255);
-    background-color: tomato(168, 175, 175);
-    border-color: white;
-    color: white;
-} */

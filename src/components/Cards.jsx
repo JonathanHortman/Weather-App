@@ -4,9 +4,6 @@ import s from '../StyleSheets/Cards.module.css';
 
 export default function Cards({ cities, onClose }) {
   return (
-
-    <div>
-
       <div className={`${s.contenedorCards}`}>
         {cities.map(c => <Card
           key={c.id}
@@ -18,8 +15,5 @@ export default function Cards({ cities, onClose }) {
           onClose={() => onClose(c.id)}
         />)}
       </div>
-
-    </div>
-
   )
 };

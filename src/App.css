@@ -1,9 +1,12 @@
 .App {
-  height: 350px;
+  height: 100vh;
   text-align: center;
-  background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-black-solid-material-banner-image_262525.jpg');
+  background-image: url('https://www.todofondos.net/wp-content/uploads/descargar-bosque-montanas-atardecer-clima-fresco-minimalismo-1024x600-1-scaled.jpg');
   background-repeat: no-repeat; 
-  background-size: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: scroll;
 }
 
 @media (max-width: 600px) {

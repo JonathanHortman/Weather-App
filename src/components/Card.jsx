@@ -3,11 +3,11 @@ import s from '../StyleSheets/Card.module.css';
 import { Link } from 'react-router-dom';
 
 export default function Card({ max, min, name, img, onClose, id }) {
+  console.log(max)
   return (
-
-    <div>
-
-      <div className={`${s.contenedorCard}`}>
+    
+    <div lassName={`${s.containerCardContainer}`}>
+      <div className={`${max<6? s.contenedorCardIce : max<16 ? s.contenedorCardCold : max<26 ? s.contenedorCardSprint : s.contenedorCardSummer}`}>
 
           <div className={`${s.botonX}`}>
             <button
