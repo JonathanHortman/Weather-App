@@ -11,7 +11,12 @@ export default function Cards({ cities, onClose }) {
           min={c.min}
           name={c.name}
           img={c.img}
-          id={c.id}
+          latitud={c.latitud}
+          longitud={c.longitud}
+          wind={c.wind}
+          temp={c.temp}
+          weather={c.weather}
+          clouds={c.clouds}
           onClose={() => onClose(c.id)}
         />)}
       </div>

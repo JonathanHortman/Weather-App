@@ -27,7 +27,7 @@ export default function SearchBar({ onSearch }) {
         <input
         className={s.searchButton}
           type="submit"
-          value="Lets search 🔎" />
+          value="🔎" />
 
       </div>
 

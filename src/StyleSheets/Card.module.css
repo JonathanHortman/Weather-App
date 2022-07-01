@@ -1,6 +1,5 @@
 .containerCardContainer {
     display: block;
-
 }
 
 .contenedorCardIce {
@@ -10,17 +9,16 @@
     font-family: monospace;
     font-size: 16px;
     text-shadow: 0.1px 0.1px 0.4rem rgb(0, 0, 0, 0.3);
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.735);
     padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    background-image: url('https://us.123rf.com/450wm/aleksandr72/aleksandr721710/aleksandr72171000026/87352180-paisaje-escarchado-de-invierno-en-el-suelo-se-extiende-una-gran-cantidad-de-nieve-hace-mucho-fr%C3%ADo-af.jpg');
+    background-image: url('https://img.freepik.com/foto-gratis/fondo-textura-hielo-congelado_37787-2289.jpg?w=2000');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     box-shadow: 1px 1px 0.6rem black;
     user-select: none;
     margin-top: 40px;
+    outline: none
 }
 
 .contenedorCardCold {
@@ -30,11 +28,10 @@
     font-family: monospace;
     font-size: 16px;
     text-shadow: 0.1px 0.1px 0.4rem rgb(0, 0, 0, 0.3);
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.735);
+
     padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
-    background-image: url('https://media.istockphoto.com/photos/in-the-wind-picture-id650151750?b=1&k=20&m=650151750&s=170667a&w=0&h=AnQ_zSwVIyh_KTGg73lBVRjyp72WqejN18uK2DV7VxM=');
+    background-image: url('https://ak.picdn.net/shutterstock/videos/16278475/thumb/1.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -50,14 +47,13 @@
     font-family: monospace;
     font-size: 16px;
     text-shadow: 0.1px 0.1px 0.4rem rgb(0, 0, 0, 0.3);
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.735);
+
     padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-image: url('https://ae01.alicdn.com/kf/HTB13eILPFXXXXXVXVXXq6xXFXXXD/Tulipanes-Primavera-Foto-De-Fondo-de-Fondo-la-fotograf-a-para-estudios-de-fotograf-a-los.jpg_Q90.jpg_.webp');
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/back_our/20190628/ourmid/pngtree-green-nature-background-texture-image_264197.jpg');
     box-shadow: 1px 1px 0.6rem black;
     user-select: none;
     margin-top: 40px;
@@ -70,10 +66,9 @@
     font-family: monospace;
     font-size: 16px;
     text-shadow: 0.1px 0.1px 0.4rem rgb(0, 0, 0, 0.3);
-    border: 1px solid rgb(255, 255, 255);
+    border: 2px solid rgba(0, 0, 0, 0.735);
+
     padding-top: 2px;
-    padding-left: 2px;
-    padding-right: 2px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -83,46 +78,117 @@
     margin-top: 40px;
 }
 
-.contenedorCard:hover {
-    border-color: rgb(210, 216, 221);
-    box-shadow: 4px 4px 0.6rem rgb(214, 213, 213);
+.contenedorCardIce:hover {
+    -webkit-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    transform: scale(1.05);
+    transition: all 0.15s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.contenedorCardCold:hover {
+    -webkit-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+    transition: all 0.15s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.contenedorCardSprint:hover {
+    -webkit-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+    transition: all 0.15s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.contenedorCardSummer:hover {
+    -webkit-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 26px 26px 38px -9px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+    transition: all 0.15s ease-in-out 0s;
+    cursor: pointer;
+}
+
+.contenedorTexto {
+    position: relative;
 }
 
 .ciudad {
     font-size: 20px;
     color: rgb(0, 0, 0);
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
+.openButton {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(0, 0, 0, 0);
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 40px;
+    outline: none
+}
 
+.openButton:hover {
+    transform: rotate(90deg);
+    transition: all 0.15s ease-in-out 0s;
+    border: 1px solid rgba(0, 0, 0, 0);
+    outline: none
+}
 
+.openButton:active {
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
 
 .climas {
+    margin-top: 35px;
     color: rgb(0, 0, 0);
     width: 100%;
-    background-color: rgba(7, 13, 121, 0.255);
+    background-color: rgba(7, 13, 121, 0.19);
 }
 
-.botonX {
-    margin-right: 2px;
-    display: flex;
-    justify-content: flex-end;
+.xContainer {
+    position: relative;
+    /* width: 100%; */
+    /* margin-right: 2px; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
 }
 
 .x {
+    position: absolute;
+    right: 2px;
     border-radius: 100px;
-    width: 25px;
-    height: 25px;
-    color: rgba(0, 0, 0, 0.713);
-    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0);
+    background-image: url('../assets/delete.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    z-index: 20;
 }
 
 .x:hover {
-    background-color:red;
-    color: black;
+    transform: scale(1.1);
+    transition: all 0.15s ease-in-out 0s;
 }
 
 .imagenClima {
-    filter: brightness(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
 }
 
 
